@@ -11,6 +11,6 @@ public class OnLevelLoaderCommand
 
     public void Execute(byte levelIndex)
     {
-        Object.Instantiate(Resources.Load<GameObject>($"Prefabs/Levels/level {levelIndex}"), _levelHolder);
+        Object.Instantiate(Resources.Load<GameObject>($"Prefabs/LevelPrefabs/level {levelIndex}"), _levelHolder);
     }
 }
